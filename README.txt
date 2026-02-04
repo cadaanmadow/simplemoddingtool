@@ -23,3 +23,15 @@ Notes:
 - This tool does not modify game executables
 - Works with most Unreal Engine and loose-file games
 - Portable (no installation)
+
+## Building from source (optional)
+
+This project can be built into a standalone Windows executable using PyInstaller.
+
+Requirements:
+- Python 3.10+
+- PySide6
+- PyInstaller
+
+Build command:
+pyinstaller --name "Simple Modding Tool" --noconsole --icon=mod_manager.ico --clean mod_manager.py
