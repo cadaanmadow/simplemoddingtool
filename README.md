@@ -35,3 +35,4 @@ Requirements:
 
 Build command:
 pyinstaller --name "Simple Modding Tool" --noconsole --icon=mod_manager.ico --clean mod_manager.py
+
